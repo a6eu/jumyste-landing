@@ -1,6 +1,8 @@
 'use client'
+
 import Image from 'next/image'
 import { PrimaryButton } from './ui/primary-button'
+import { redirect } from 'next/navigation'
 
 const Main = () => {
     return (
@@ -17,7 +19,7 @@ const Main = () => {
                         </p>
                     </div>
                     <PrimaryButton
-                        onClick={() => (window.location.href = '#download')}
+                        onClick={() => redirect('#download')}
                         text="Найти работу"
                     />
                 </div>

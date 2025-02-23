@@ -12,7 +12,7 @@ const logos = [
 const About = () => {
     return (
         <div
-            id="about"
+            id="partners"
             className="px-4 mt-40 lg:mt-10 pb-20 max-w-[1270px] mx-auto text-center text-xl sm:text-2xl lg:text-3xl font-light flex flex-col gap-52"
         >
             <div>

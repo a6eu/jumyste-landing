@@ -1,3 +1,5 @@
+'use client'
+
 import { Header } from '@/components/ui/header'
 import { Main } from '@/components/main'
 import { About } from '@/components/about'
