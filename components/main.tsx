@@ -24,7 +24,7 @@ const Main = () => {
                     />
                 </div>
                 <div className="relative h-fit w-[400px] md:min-w-[560px]">
-                    <div className="bg-white items-center flex w-fit rounded-xl py-3 px-1.5 absolute top-20">
+                    <div className="bg-white items-center flex w-fit rounded-xl py-3 px-1.5 absolute top-0 md:top-20">
                         <Image
                             width={40}
                             height={40}
@@ -49,7 +49,7 @@ const Main = () => {
                             alt=""
                         />
                     </div>
-                    <div className="bg-white items-center flex w-fit rounded-xl py-2.5 px-2.5 absolute top-10 right-28 element">
+                    <div className="bg-white items-center flex w-fit rounded-xl py-2.5 px-2.5 absolute top-0 lg:top-10 right-10 lg:right-28 element">
                         <div className="bg-primaryBlocks/50 rounded-xl font-semibold text-sm text-primary p-1.5">
                             Откликнуться
                         </div>
@@ -76,7 +76,13 @@ const Main = () => {
                             alt=""
                         />
                     </div>
-                    <div className="bg-primaryBlocks rounded-full size-[280px] md:size-[381px] ml-14 mb-10 z-20" />
+                    <Image
+                        src="/assets/images/main-section-image.png"
+                        width={381}
+                        height={381}
+                        className="rounded-full size-[280px] md:size-[381px] ml-14 mb-10 z-20"
+                        alt=""
+                    />
                 </div>
             </div>
         </div>

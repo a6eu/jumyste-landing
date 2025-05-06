@@ -21,19 +21,19 @@ const Download = () => {
                         прозрачные отзывы <br /> сотрудников помогут вам сделать
                         правильный выбор!
                     </p>
-                    <div className="flex flex-col md:flex-row gap-5 max-w-[417px] w-full justify-between mt-10">
+                    <div className="flex gap-5 max-w-[417px] w-full justify-center md:justify-between mt-10 *:flex-shrink-0">
                         <Image
-                            width={150}
+                            width={180}
                             height={50}
                             src="/assets/badges/app-store.svg"
                             alt=""
                         />
-                        <Image
+                        {/* <Image
                             width={180}
                             height={40}
                             src="/assets/badges/google-play.png"
                             alt=""
-                        />
+                        /> */}
                     </div>
                 </div>
                 <Image

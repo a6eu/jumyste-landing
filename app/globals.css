@@ -19,7 +19,7 @@ body {
 #main {
     background: url('/assets/svg/main-bg.svg') no-repeat;
     background-size: cover;
-    height: 100vh;
+    min-height: 997px;
 }
 
 @font-face {
@@ -215,10 +215,6 @@ body {
     src: url('/fonts/Gilroy-BlackItalic.ttf') format('truetype');
     font-weight: 950;
     font-style: italic;
-}
-
-body {
-    font-family: 'Antipasto Pro', sans-serif;
 }
 
 .chevron-down {

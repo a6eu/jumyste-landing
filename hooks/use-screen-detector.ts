@@ -9,6 +9,7 @@ export const useScreenDetector = () => {
         const handleWindowSizeChange = () => {
             setWidth(window.innerWidth)
         }
+
         window.addEventListener('resize', handleWindowSizeChange)
 
         return () => {
