@@ -1,0 +1,87 @@
+{
+  "partners": "Our Partners",
+  "about": "About Us",
+  "faq": "FAQ",
+  "download": "Download",
+  "login": "Login",
+  "main": {
+    "title": "Find Your Dream Job with Jumyste!",
+    "description": "We connect talented individuals with the best companies. Be one of them!",
+    "button": "Find a Job"
+  },
+  "info": {
+    "title": "Over 100 companies trust us - now it's your turn",
+    "description": "Let's grow together",
+    "block1": "Project Architect",
+    "block2": "IT Developer",
+    "block3": "Graphic Designer",
+    "block4": "Finance",
+    "block5": "2D Animation",
+    "block6": "Sales Manager",
+    "block7": "Marketer"
+  },
+  "ai": {
+    "title": "Hire Faster and Smarter with AI!",
+    "description": "How does the AI recruiter work?",
+    "info1": {
+      "title": "Analysis and Candidate Selection",
+      "description": "The AI scans resumes, analyzes experience, skills, and qualifications."
+    },
+    "info2": {
+      "title": "Assessment and Ranking",
+      "description": "After selection, the AI ranks candidates based on job fit."
+    },
+    "info3": {
+      "title": "Automated Communication",
+      "description": "AI helps with communication: sends notifications, interview invitations, and test assignments."
+    }
+  },
+  "reviews": {
+    "title": "Transparent Employee Reviews",
+    "description": "We value honest feedback from every team member. The Clear Feedbacks feature allows employees to share their impressions of the company, culture, work conditions, and development opportunities.",
+    "list1": "Employees leave honest reviews. Management gains valuable insights.",
+    "list2": "Management receives valuable insights to improve working conditions.",
+    "list3": "Transparency helps create a comfortable work environment.",
+    "button": "Leave a Review"
+  },
+  "faq1": {
+    "title": "Frequently Asked Questions",
+    "description": "In this section, you will find information about how our service works, how to search for jobs, leave reviews, and much more. We've tried to answer everything that might interest you.",
+    "items": [
+      {
+        "question": "How does your service work?",
+        "answer": "Our service uses artificial intelligence to match the best candidates with job openings. Just create a profile, add your information, and the system will find the best options for you."
+      },
+      {
+        "question": "How to search for a job?",
+        "answer": "You can search for jobs using an easy-to-use filter, and also get recommendations based on your skills and experience."
+      },
+      {
+        "question": "How to leave a review?",
+        "answer": "Just go to the company profile and leave your review. All reviews are moderated."
+      },
+      {
+        "question": "How to contact an employer?",
+        "answer": "You can send a message to the employer directly through the platform after submitting your job application."
+      }
+    ]
+  },
+  "download1": {
+    "title": "Download Our App",
+    "subtitle": "and find your dream job!",
+    "description": "Search for jobs, apply for offers, and communicate with employers – all in one convenient app. Fast search, smart matching, and transparent employee reviews will help you make the right choice!",
+    "appStore": "App Store"
+  },
+  "footer": {
+    "quickLinks": "Quick Links",
+    "home": "Home Page",
+    "partners": "Our Partners",
+    "about": "About Us",
+    "faq": "FAQ",
+    "terms": "Terms of Use",
+    "privacyPolicy": "Privacy Policy",
+    "userAgreement": "User Agreement",
+    "contactUs": "Contact Us:",
+    "email": "support@jumyste.kz"
+  }
+}

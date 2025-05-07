@@ -1,15 +1,17 @@
 import Image from 'next/image'
+import { useTranslation } from 'react-i18next'
 
 const AiProcess = () => {
+    const { t } = useTranslation()
     return (
         <div
             id='ai-process'
             className='bg-secondaryLight/60 w-full min-h-[520px] text-center py-7 px-4 overflow-hidden'
         >
             <div className='text-2xl lg:text-3xl font-light'>
-                Нанимайте быстрее и проще с ИИ!
+                {t('ai.title')}
                 <p className='font-semibold text-primary text-3xl lg:text-5xl'>
-                    Как работает на ИИ-рекрутер?
+                    {t('ai.description')}
                 </p>
             </div>
             <div className='flex gap-14 flex-col *:flex-shrink lg:flex-row items-center lg:items-baseline lg:justify-between max-w-[1297px] mx-auto mt-16'>
@@ -19,11 +21,9 @@ const AiProcess = () => {
                     </div>
                     <div>
                         <div className='text-primary font-semibold text-2xl text-pretty'>
-                            Анализ <br /> и подбор кандидатов
+                            {t('ai.info1.title')}
                         </div>
-                        <p className='text-black text-xl font-light'>
-                            ИИ сканирует резюме, анализирует опыт, навыки и квалификацию кандидатов
-                        </p>
+                        <p className='text-black text-xl font-light'>{t('ai.info1.description')}</p>
                     </div>
                 </div>
                 <Image
@@ -39,13 +39,10 @@ const AiProcess = () => {
                     </div>
                     <div>
                         <div className='text-primary font-semibold text-2xl text-pretty'>
-                            Оценка и ранжирование
+                            {t('ai.info2.title')}
                         </div>
                         <br />
-                        <p className='text-black text-xl font-light'>
-                            После отбора ИИ оценивает каждого кандидата по уровню соответствия
-                            ваканси
-                        </p>
+                        <p className='text-black text-xl font-light'>{t('ai.info2.description')}</p>
                     </div>
                 </div>
                 <Image
@@ -61,12 +58,9 @@ const AiProcess = () => {
                     </div>
                     <div>
                         <div className='text-primary font-semibold text-2xl text-pretty'>
-                            Автоматизированная коммуникация
+                            {t('ai.info3.title')}
                         </div>
-                        <p className='text-black text-xl font-light'>
-                            ИИ помогает в коммуникации: <br />
-                            отправляет уведомления, приглашения на собеседования и тестовые задания
-                        </p>
+                        <p className='text-black text-xl font-light'>{t('ai.info3.description')}</p>
                     </div>
                 </div>
             </div>

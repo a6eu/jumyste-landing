@@ -1,6 +1,9 @@
+'use client'
+
 import Image from 'next/image'
 import { ArrowRight } from 'lucide-react'
 import { useState } from 'react'
+import { useTranslation } from 'react-i18next'
 
 const logos = [
     '/assets/svg/kaspi.svg',
@@ -11,6 +14,8 @@ const logos = [
 ]
 
 const About = () => {
+    const { t } = useTranslation()
+
     return (
         <div
             id='partners'
@@ -18,9 +23,8 @@ const About = () => {
         >
             <div>
                 <div>
-                    Нам доверяют <span className='font-gilroy'>+100</span> компаний - теперь твоя
-                    очередь <br />
-                    Давай расти вместе
+                    {t('info.title')} <br />
+                    {t('info.description')}
                 </div>
                 <div className='flex flex-wrap justify-center gap-4 md:gap-10 mt-4'>
                     {logos.map((logo, index) => (
@@ -37,22 +41,38 @@ const About = () => {
                 </div>
             </div>
             <div id='about' className='grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-7'>
-                <Block heading='Архитектор проектов' />
-                <Block vacancyCount={1000} heading='ИТ Разработчик' src='/assets/svg/block-2.svg' />
+                <Block heading={t('info.block1')} />
+                <Block
+                    vacancyCount={1000}
+                    heading={t('info.block2')}
+                    src='/assets/svg/block-2.svg'
+                />
                 <Block
                     vacancyCount={300}
-                    heading='Графический дизайнер'
+                    heading={t('info.block3')}
                     src='/assets/svg/block-3.svg'
                 />
-                <Block vacancyCount={800} heading='Финансы' src='/assets/svg/block-4.svg' />
+                <Block
+                    vacancyCount={800}
+                    heading={t('info.block4')}
+                    src='/assets/svg/block-4.svg'
+                />
                 <Block vacancyCount={500} src='/assets/svg/block-5.svg' />
-                <Block vacancyCount={200} heading='2D Анимация' src='/assets/svg/block-6.svg' />
+                <Block
+                    vacancyCount={200}
+                    heading={t('info.block5')}
+                    src='/assets/svg/block-6.svg'
+                />
                 <Block
                     vacancyCount={2000}
-                    heading='Менеджер по продажам'
+                    heading={t('info.block6')}
                     src='/assets/svg/block-7.svg'
                 />
-                <Block vacancyCount={1000} heading='Макретолог' src='/assets/svg/block-8.svg' />
+                <Block
+                    vacancyCount={1000}
+                    heading={t('info.block7')}
+                    src='/assets/svg/block-8.svg'
+                />
             </div>
         </div>
     )
